@@ -7,162 +7,156 @@
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+    <script async defer src="//www.instagram.com/embed.js"></script>
 </head>
 <body>
 <main>
-    <section class="hero gradient-cyanToPurple">
+    <section class="hero hero_home gradient-cyanToPurple">
         <div class="hero-body">
             <div class="container hero_revert">
                 <img src="assets/img/profil_picture.jpg" class="profil_picture is-rounded animated fadeInDown">
                 <h4 class="title text-white text-centered animated fadeInUp">
                     Clément de Louvencourt
                 </h4>
-                <h6 class="subtitle text-grey-100 text-centered animated fadeInUp">
-                    Développeur full-stack
-                </h6>
+                <h6 class="subtitle text-grey-300 size-5 text-centered animated fadeInUp">Github: <a
+                        href="https://github.com/PHClement" target="_blank" class="text-blue-200">@PHClement</a></h6>
+                <p class="text-centered is-centered animated scaleIn">
+                    <a class="button size-small white mr-1 is-rounded" onclick="scrollToElement('#devZone')">Développement</a><a
+                        class="button size-small white is-rounded">Infographie</a><a
+                        class="button size-small white ml-1 is-rounded" onclick="scrollToElement('#videoZone')">Montage
+                    vidéo</a>
+                </p>
             </div>
         </div>
     </section>
-</main>
 
-
-<div class="container">
-    <div class="col-12">
-        <h1 class="text-black title size-2 text-centered">Développement</h1>
-        <h1 class="text-grey-500 subtitle size-6 text-centered">Mes compétences & projets en programmation.</h1>
+    <section class="container mt-7" id="presentation">
+        <h1 class="text-black title size-2">Présentation personnel</h1>
+        <h1 class="text-grey-600 subtitle size-6">Tout ce qui est à propos de moi et de mon travail.</h1>
         <hr/>
-        <div id="codestats">
-            <div class="row mt-5">
-                <div class="col-lg-3">
-                    <h4 class="text-black title size-3"><i class="fas fa-code pb-1"></i><br>Languages maitrisés.</h4>
-                    <h6 class="subtitle text-grey-600 size-7 pt-1">Utilisant la suite Jetbrains pour développer, celle-ci me fournit un plugin permettant d'obtenir le nombre de ligne de code tapé en direct.</h6>
-                    <a class="button" href="https://codestats.net/users/NHClement" target="_blank">Voir le site</a>
-                </div>
-                <div class="col-lg-9 mt-5">
-                    <div class="row mb-4">
-                        <div class="col-lg-12">
-                            <div class="row" id="languages">
-                                <div class="spinner"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        A FAIRE
+    </section>
+
+    <section class="hero gradient-cyanToPurple mt-7" id="devZone">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="text-white title size-2">Développement</h1>
+                <h1 class="text-grey-100 subtitle size-6">Mes compétences & projets en programmation.</h1>
             </div>
         </div>
-
-        <hr class="mt-5">
-
-        <div id="projects">
-            <div class="row mt-5">
-                <div class="col-lg-3">
-                    <h4 class="text-black title size-3"><i class="fas fa-code pb-1"></i><br>Projets de<br> développement externes.</h4>
-                    <h6 class="subtitle text-grey-600 size-7 pt-1">Mes réalisations pour des sociétés ou des associations ont été réalisé à partir de maquettes pour le front-end ou à partir de cahiers des charges pour le back-end.</h6>
-                </div>
-                <div class="col-lg-9 mt-5">
-                    <div class="mt-2">
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="fab fa-cloudsmith media_icon text-blue-500"></i>
-                            </div>
-                            <div class="media-content">
-                                <h5 class="title text-grey-800 size-4">Front-End</h5>
-                                <h6 class="subtitle text-grey-500 size-6">Mes réalisations front-end (HTML5, CSS, SCSS, SASS, Photoshop)</h6>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="fas fa-cog media_icon text-blue-500"></i>
-                            </div>
-                            <div class="media-content">
-                                <h5 class="title text-grey-800 size-4">Back-End</h5>
-                                <h6 class="subtitle text-grey-500 size-6">Mes réalisations back-end (PHP, Java SE, Javascript, C#)</h6>
-                            </div>
-                        </div>
+    </section>
+    <div class="container">
+        <div class="col-12">
+            <div id="codestats">
+                <div class="row mt-5">
+                    <div class="col-lg-3">
+                        <h4 class="text-black title size-3"><i class="fas fa-code pb-1"></i><br>Languages maitrisés.
+                        </h4>
+                        <h6 class="subtitle text-grey-600 size-7 pt-1">Utilisant la suite Jetbrains pour développer,
+                            celle-ci me fournit un plugin permettant d'obtenir le nombre de ligne de code tapé en
+                            direct.</h6>
+                        <a class="button" href="https://codestats.net/users/NHClement" target="_blank">Code::Stats</a>
+                    </div>
+                    <div class="col-lg-9 mt-5">
                         <div class="row mb-4">
-                            <div class="col-lg-12 mt-3">
-                                <div class="card">
-                                    <div class="card-content">
-                                        <div class="media">
-                                            <div class="media-content">
-                                                <figure class="image is-48x48">
-                                                    <img src="assets/img/logo_white.svg" class="mbp_image blue-500">
-                                                </figure>
-                                                <p class="title size-4 mt-1">MeilleursBiensPro</p>
-                                                <div class="subtitle size-6 pb-1">
-                                                    MeilleursBiensPro est un réseau d'agence immobilière, basé sur Paris, la réalisation de ce site avait pour objectif de simplifier les démarches administratives de l'entreprise à travers un panel d'administration avancé.
-                                                    <br>
-                                                    <a href="https://meilleursbiens.pro/" target="_blank" class="button mt-1">Voir la prestation</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="fab fa-deviantart media_icon text-blue-500"></i>
-                            </div>
-                            <div class="media-content">
-                                <h5 class="title text-grey-800 size-4">Full-Stack</h5>
-                                <h6 class="subtitle text-grey-500 size-6">Mes réalisations full-stack (PHP, Java SE, Javascript, C#, HTML5, SCSS, SASS, Photoshop)</h6>
-                            </div>
-                        </div>
-                        <div class="row mb-4">
-                            <div class="col-lg-12 mt-2">
-                                <div class="card">
-                                    <div class="card-content">
-                                        <div class="media">
-                                            <div class="media-content">
-                                                <figure class="image is-48x48">
-                                                    <img src="assets/img/logo_web.png" class="ph_image blue-500">
-                                                </figure>
-                                                <p class="title size-4 mt-1">PrivateHeberg</p>
-                                                <div class="subtitle size-6 pb-1">
-                                                    PrivateHeberg est une entreprise de services et d'hébergement réseaux, basé sur Nancy, la réalisation de ce site avait pour objectif de réaliser un site vitrine pour la vente ainsi qu'un panel de gestion de services dialoguant via packets RabbitMQ avec une application Java.
-                                                    <br>
-                                                    <a href="https://privateheberg.com/" target="_blank" class="button mt-1">Voir la prestation</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div class="col-lg-12">
+                                <div class="row" id="languages">
+                                    <div class="spinner"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <hr class="mt-5">
+            <hr class="mt-5">
 
-        <div id="personalProjects">
-            <div class="row mt-5">
-                <div class="col-lg-3">
-                    <h4 class="text-black title size-3"><i class="fas fa-code pb-1"></i><br>Projets de<br> développement personnels.</h4>
-                    <h6 class="subtitle text-grey-600 size-7 pt-1">Mes réalisations personnels destiné à être des projets propriétaires ou des projets open-sources.</h6>
-                </div>
-                <div class="col-lg-9 mt-5">
-                    <div class="mt-2">
-                        <h5 class="title text-grey-800 size-4"><i class="fab fa-cloudsmith"></i> Front-end</h5>
-                        <h6 class="subtitle text-grey-500 size-6">Mes réalisations front-end</h6>
-
-                        <h5 class="title text-grey-800 size-4"><i class="fas fa-cogs"></i> Back-end</h5>
-                        <h6 class="subtitle text-grey-500 size-6">Mes réalisations back-end</h6>
-                        <div class="row mb-4">
-                            <div class="col-lg-12">
-                                <div class="card">
-                                    <div class="card-content">
-                                        <div class="media">
-                                            <div class="media-content">
-                                                <figure class="image is-48x48">
-                                                    <img src="assets/img/logo_white.svg" class="mbp_image blue-500">
-                                                </figure>
-                                                <p class="title size-4 mt-1">MeilleursBiensPro</p>
-                                                <div class="subtitle size-6 pb-1">
-                                                    MeilleursBiensPro est un réseau d'agence immobilière, basé sur Paris, la réalisation de ce site avait pour objectif de simplifier les démarches administratives de l'entreprise à travers un panel d'administration avancé.
-                                                    <br>
-                                                    <a href="https://meilleursbiens.pro/" target="_blank" class="button mt-1">Voir la prestation</a>
+            <div id="projects">
+                <div class="row mt-2">
+                    <div class="col-lg-3">
+                        <h4 class="text-black title size-3"><i class="fas fa-code pb-1"></i><br>Projets de<br>
+                            développement externes.</h4>
+                        <h6 class="subtitle text-grey-600 size-7 pt-1">Mes réalisations pour des sociétés ou des
+                            associations ont été réalisé à partir de maquettes pour le front-end ou à partir de cahiers
+                            des charges pour le back-end.</h6>
+                    </div>
+                    <div class="col-lg-9 mt-2">
+                        <div class="mt-2">
+                            <div class="media">
+                                <div class="media-left">
+                                    <i class="fab fa-cloudsmith media_icon text-blue-500"></i>
+                                </div>
+                                <div class="media-content">
+                                    <h5 class="title text-grey-800 size-4">Front-End</h5>
+                                    <h6 class="subtitle text-grey-500 size-6">Mes réalisations front-end (HTML5, CSS,
+                                        SCSS, SASS, Photoshop)</h6>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <i class="fas fa-cog media_icon text-blue-500"></i>
+                                </div>
+                                <div class="media-content">
+                                    <h5 class="title text-grey-800 size-4">Back-End</h5>
+                                    <h6 class="subtitle text-grey-500 size-6">Mes réalisations back-end (PHP, Java SE,
+                                        Javascript, C#)</h6>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-lg-12 mt-3">
+                                    <div class="card">
+                                        <div class="card-content">
+                                            <div class="media">
+                                                <div class="media-content">
+                                                    <figure class="image is-48x48">
+                                                        <img src="assets/img/logo_white.svg" class="mbp_image blue-500">
+                                                    </figure>
+                                                    <p class="title size-4 mt-1">MeilleursBiensPro</p>
+                                                    <div class="subtitle size-6 pb-1">
+                                                        MeilleursBiensPro est un réseau d'agence immobilière, basé sur
+                                                        Paris, la réalisation de ce site avait pour objectif de
+                                                        simplifier les démarches administratives de l'entreprise à
+                                                        travers un panel d'administration avancé.
+                                                        <br>
+                                                        <a href="https://meilleursbiens.pro/" target="_blank"
+                                                           class="button mt-1">Voir la prestation</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <i class="fab fa-deviantart media_icon text-blue-500"></i>
+                                </div>
+                                <div class="media-content">
+                                    <h5 class="title text-grey-800 size-4">Full-Stack</h5>
+                                    <h6 class="subtitle text-grey-500 size-6">Mes réalisations full-stack (PHP, Java SE,
+                                        Javascript, C#, HTML5, SCSS, SASS, Photoshop)</h6>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-lg-12 mt-2">
+                                    <div class="card">
+                                        <div class="card-content">
+                                            <div class="media">
+                                                <div class="media-content">
+                                                    <figure class="image is-48x48">
+                                                        <img src="assets/img/logo_web.png" class="ph_image blue-500">
+                                                    </figure>
+                                                    <p class="title size-4 mt-1">PrivateHeberg</p>
+                                                    <div class="subtitle size-6 pb-1">
+                                                        PrivateHeberg est une entreprise de services et d'hébergement
+                                                        réseaux, basé sur Nancy, la réalisation de ce site avait pour
+                                                        objectif de réaliser un site vitrine pour la vente ainsi qu'un
+                                                        panel de gestion de services dialoguant via packets RabbitMQ
+                                                        avec une application Java.
+                                                        <br>
+                                                        <a href="https://privateheberg.com/" target="_blank"
+                                                           class="button mt-1">Voir la prestation</a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -170,27 +164,306 @@
                                 </div>
                             </div>
                         </div>
-                        <h5 class="title text-grey-800 size-4"><i class="fab fa-deviantart"></i> Full-stack</h5>
-                        <h6 class="subtitle text-grey-500 size-6">Mes réalisations full-stack</h6>
-                        <div class="row mb-4">
-                            <div class="col-lg-12">
-                                <div class="card">
-                                    <div class="card-content">
-                                        <div class="media">
-                                            <div class="media-content">
-                                                <figure class="image is-48x48">
-                                                    <img src="assets/img/logo_web.png" class="ph_image blue-500">
-                                                </figure>
-                                                <p class="title size-4 mt-1">PrivateHeberg</p>
-                                                <div class="subtitle size-6 pb-1">
-                                                    PrivateHeberg est une entreprise de services et d'hébergement réseaux, basé sur Nancy, la réalisation de ce site avait pour objectif de réaliser un site vitrine pour la vente ainsi qu'un panel de gestion de services dialoguant via packets RabbitMQ avec une application Java.
-                                                    <br>
-                                                    <a href="https://privateheberg.com/" target="_blank" class="button mt-1">Voir la prestation</a>
-                                                </div>
-                                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="mt-5">
+
+            <div id="personalProjects">
+                <div class="row mt-5">
+                    <div class="col-lg-3">
+                        <h4 class="text-black title size-3"><i class="fas fa-code pb-1"></i><br>Projets de<br>
+                            développement personnels.</h4>
+                        <h6 class="subtitle text-grey-600 size-7 pt-1">Mes réalisations personnels destiné à être des
+                            projets propriétaires ou des projets open-sources.</h6>
+                    </div>
+                    <div class="col-lg-9 mt-5">
+                        Bientôt...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="hero gradient-cyanToPurple mt-7" id="videoZone">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="text-white title size-2">Montage vidéo</h1>
+                <h1 class="text-grey-100 subtitle size-6">Mes projets en montage vidéo.</h1>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="col-12">
+            <div id="videos">
+                <div class="row mt-2">
+                    <div class="col-lg-3">
+                        <h4 class="text-black title size-3"><i class="fas fa-film"></i><br>CLab<br>Studio.</h4>
+                        <h6 class="subtitle text-grey-600 size-7 pt-1">CLab Studio est un projet que j'ai monté sur
+                            Instagram, avec l'aide d'un ami possédant un drône, lui est chargé de filmer avec son drône
+                            ses voyages, et moi je suis chargé de réalisé la vidéo et de la publié.</h6>
+                    </div>
+                    <div class="col-lg-9 mt-2">
+                        <div class="row mt-2">
+                            <div class="col-lg-6 col-md-12">
+                                <blockquote class="instagram-media"
+                                            data-instgrm-permalink="https://www.instagram.com/p/BfPIlKInBpO/"
+                                            data-instgrm-version="8"
+                                            style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                    <div style="padding:8px;">
+                                        <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.194444444444443% 0; text-align:center; width:100%;">
+                                            <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
                                         </div>
+                                        <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                            <a href="https://www.instagram.com/p/BfPIlKInBpO/"
+                                               style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                               target="_blank">Une publication partagée par CLab (@clab.studio)</a> le
+                                            <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;"
+                                                  datetime="2018-02-15T23:57:47+00:00">15 Févr. 2018 à 3 :57 PST
+                                            </time>
+                                        </p>
                                     </div>
-                                </div>
+                                </blockquote>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <blockquote class="instagram-media"
+                                            data-instgrm-permalink="https://www.instagram.com/p/BesN8D2nhvn/"
+                                            data-instgrm-version="8"
+                                            style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                    <div style="padding:8px;">
+                                        <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.194444444444443% 0; text-align:center; width:100%;">
+                                            <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+                                        </div>
+                                        <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                            <a href="https://www.instagram.com/p/BesN8D2nhvn/"
+                                               style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                               target="_blank">Une publication partagée par CLab (@clab.studio)</a> le
+                                            <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;"
+                                                  datetime="2018-02-02T10:31:29+00:00">2 Févr. 2018 à 2 :31 PST
+                                            </time>
+                                        </p>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <blockquote class="instagram-media"
+                                            data-instgrm-permalink="https://www.instagram.com/p/BeNZM7tnrq6/"
+                                            data-instgrm-version="8"
+                                            style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                    <div style="padding:8px;">
+                                        <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;">
+                                            <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+                                        </div>
+                                        <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                            <a href="https://www.instagram.com/p/BeNZM7tnrq6/"
+                                               style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                               target="_blank">Une publication partagée par CLab (@clab.studio)</a> le
+                                            <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;"
+                                                  datetime="2018-01-21T11:14:15+00:00">21 Janv. 2018 à 3 :14 PST
+                                            </time>
+                                        </p>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <blockquote class="instagram-media"
+                                            data-instgrm-permalink="https://www.instagram.com/p/BeLTDB1Hqfs/"
+                                            data-instgrm-version="8"
+                                            style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                    <div style="padding:8px;">
+                                        <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.194444444444443% 0; text-align:center; width:100%;">
+                                            <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+                                        </div>
+                                        <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                            <a href="https://www.instagram.com/p/BeLTDB1Hqfs/"
+                                               style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                               target="_blank">Une publication partagée par CLab (@clab.studio)</a> le
+                                            <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;"
+                                                  datetime="2018-01-20T15:40:26+00:00">20 Janv. 2018 à 7 :40 PST
+                                            </time>
+                                        </p>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <blockquote class="instagram-media"
+                                            data-instgrm-permalink="https://www.instagram.com/p/Bd3gJRaHU-Q/"
+                                            data-instgrm-version="8"
+                                            style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                    <div style="padding:8px;">
+                                        <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.194444444444443% 0; text-align:center; width:100%;">
+                                            <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+                                        </div>
+                                        <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                            <a href="https://www.instagram.com/p/Bd3gJRaHU-Q/"
+                                               style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                               target="_blank">Une publication partagée par CLab (@clab.studio)</a> le
+                                            <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;"
+                                                  datetime="2018-01-12T23:10:13+00:00">12 Janv. 2018 à 3 :10 PST
+                                            </time>
+                                        </p>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <blockquote class="instagram-media"
+                                            data-instgrm-permalink="https://www.instagram.com/p/BdVW94unJyk/"
+                                            data-instgrm-version="8"
+                                            style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                    <div style="padding:8px;">
+                                        <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.194444444444443% 0; text-align:center; width:100%;">
+                                            <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+                                        </div>
+                                        <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                            <a href="https://www.instagram.com/p/BdVW94unJyk/"
+                                               style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                               target="_blank">Une publication partagée par CLab (@clab.studio)</a> le
+                                            <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;"
+                                                  datetime="2017-12-30T16:56:03+00:00">30 Déc. 2017 à 8 :56 PST
+                                            </time>
+                                        </p>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <blockquote class="instagram-media"
+                                            data-instgrm-permalink="https://www.instagram.com/p/Bch0JA_H2cu/"
+                                            data-instgrm-version="8"
+                                            style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                    <div style="padding:8px;">
+                                        <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.194444444444443% 0; text-align:center; width:100%;">
+                                            <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+                                        </div>
+                                        <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                            <a href="https://www.instagram.com/p/Bch0JA_H2cu/"
+                                               style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                               target="_blank">Une publication partagée par CLab (@clab.studio)</a> le
+                                            <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;"
+                                                  datetime="2017-12-10T16:27:36+00:00">10 Déc. 2017 à 8 :27 PST
+                                            </time>
+                                        </p>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <blockquote class="instagram-media"
+                                            data-instgrm-permalink="https://www.instagram.com/p/Bbo3KLzHtJ3/"
+                                            data-instgrm-version="8"
+                                            style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                    <div style="padding:8px;">
+                                        <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.194444444444443% 0; text-align:center; width:100%;">
+                                            <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+                                        </div>
+                                        <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                            <a href="https://www.instagram.com/p/Bbo3KLzHtJ3/"
+                                               style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                               target="_blank">Une publication partagée par CLab (@clab.studio)</a> le
+                                            <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;"
+                                                  datetime="2017-11-18T13:38:56+00:00">18 Nov. 2017 à 5 :38 PST
+                                            </time>
+                                        </p>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <blockquote class="instagram-media"
+                                            data-instgrm-permalink="https://www.instagram.com/p/BbnHojcn3Ql/"
+                                            data-instgrm-version="8"
+                                            style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                    <div style="padding:8px;">
+                                        <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.194444444444443% 0; text-align:center; width:100%;">
+                                            <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+                                        </div>
+                                        <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                            <a href="https://www.instagram.com/p/BbnHojcn3Ql/"
+                                               style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                               target="_blank">Une publication partagée par CLab (@clab.studio)</a> le
+                                            <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;"
+                                                  datetime="2017-11-17T21:27:06+00:00">17 Nov. 2017 à 1 :27 PST
+                                            </time>
+                                        </p>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <blockquote class="instagram-media"
+                                            data-instgrm-permalink="https://www.instagram.com/p/BbZXD0FnI8C/"
+                                            data-instgrm-version="8"
+                                            style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                    <div style="padding:8px;">
+                                        <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.194444444444443% 0; text-align:center; width:100%;">
+                                            <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+                                        </div>
+                                        <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                            <a href="https://www.instagram.com/p/BbZXD0FnI8C/"
+                                               style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                               target="_blank">Une publication partagée par CLab (@clab.studio)</a> le
+                                            <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;"
+                                                  datetime="2017-11-12T13:14:36+00:00">12 Nov. 2017 à 5 :14 PST
+                                            </time>
+                                        </p>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <blockquote class="instagram-media"
+                                            data-instgrm-permalink="https://www.instagram.com/p/BbXjaVCnleS/"
+                                            data-instgrm-version="8"
+                                            style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                    <div style="padding:8px;">
+                                        <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.194444444444443% 0; text-align:center; width:100%;">
+                                            <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+                                        </div>
+                                        <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                            <a href="https://www.instagram.com/p/BbXjaVCnleS/"
+                                               style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                               target="_blank">Une publication partagée par CLab (@clab.studio)</a> le
+                                            <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;"
+                                                  datetime="2017-11-11T20:21:17+00:00">11 Nov. 2017 à 12 :21 PST
+                                            </time>
+                                        </p>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <blockquote class="instagram-media"
+                                            data-instgrm-permalink="https://www.instagram.com/p/Bax75nfnzMl/"
+                                            data-instgrm-version="8"
+                                            style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                    <div style="padding:8px;">
+                                        <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.194444444444443% 0; text-align:center; width:100%;">
+                                            <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+                                        </div>
+                                        <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                            <a href="https://www.instagram.com/p/Bax75nfnzMl/"
+                                               style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                               target="_blank">Une publication partagée par CLab (@clab.studio)</a> le
+                                            <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;"
+                                                  datetime="2017-10-28T05:43:45+00:00">27 Oct. 2017 à 10 :43 PDT
+                                            </time>
+                                        </p>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <blockquote class="instagram-media"
+                                            data-instgrm-permalink="https://www.instagram.com/p/BaqtHXDHdQG/"
+                                            data-instgrm-version="8"
+                                            style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                    <div style="padding:8px;">
+                                        <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.194444444444443% 0; text-align:center; width:100%;">
+                                            <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+                                        </div>
+                                        <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                            <a href="https://www.instagram.com/p/BaqtHXDHdQG/"
+                                               style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                               target="_blank">Une publication partagée par CLab (@clab.studio)</a> le
+                                            <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;"
+                                                  datetime="2017-10-25T10:19:35+00:00">25 Oct. 2017 à 3 :19 PDT
+                                            </time>
+                                        </p>
+                                    </div>
+                                </blockquote>
                             </div>
                         </div>
                     </div>
@@ -198,7 +471,7 @@
             </div>
         </div>
     </div>
-</div>
+</main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="assets/js/app.js"></script>

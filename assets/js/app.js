@@ -14,5 +14,13 @@ $(document).ready(function () {
         });
     }, 1000);
 
-
 });
+
+// Scroll to
+function scrollToElement(id) {
+    $(document).ready(function () {
+        $('html, body').animate({
+            scrollTop: ($(id).offset().top)
+        }, 500);
+    });
+}
