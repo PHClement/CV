@@ -1,4 +1,4 @@
-.profil_picture{
+.profil_picture {
     height: 128px;
     width: 128px;
     border-radius: 100% !important;
@@ -6,15 +6,15 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 /* Cards */
 
 .card {
     background-color: white;
-    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     color: #4a4a4a;
     max-width: 100%;
     border: 1px solid #e7e7e7;
@@ -196,10 +196,73 @@
 
 /* Autres */
 
-.mbp_image{
-    width: 128px;
-    height: 128px;
-    background: #cccccc;
+.hero{
+    transform: skewY(1deg);
+    margin-top: -34px;
+    padding-top: 34px;
+}
+
+.hero_revert{
+    transform: skewY(-1deg);
+}
+
+.mbp_image {
+    height: 64px;
     border-radius: 5px;
     padding: 10px;
+    position: absolute;
+    top: -27px;
+    right: 36px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.19), 0 2px 6px rgba(0, 0, 0, 0.23);
+}
+
+.ph_image {
+    height: 48px;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    top: -27px;
+    right: 36px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.19), 0 2px 6px rgba(0, 0, 0, 0.23);
+}
+
+.text-justify{
+    text-align: justify !important;
+}
+
+.media_icon{
+    font-size: 20px;
+    width: 20px;
+    margin-top: 17px;
+}
+
+/* Spinner */
+.spinner {
+    width: 40px;
+    height: 40px;
+    margin: 100px auto;
+    background-color: #333;
+
+    border-radius: 100%;
+    -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+    animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+    0% { -webkit-transform: scale(0) }
+    100% {
+        -webkit-transform: scale(1.0);
+        opacity: 0;
+    }
+}
+
+@keyframes sk-scaleout {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    } 100% {
+          -webkit-transform: scale(1.0);
+          transform: scale(1.0);
+          opacity: 0;
+      }
 }

@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <title>Clément de Louvecourt :: CV</title>
+    <title>Clément de Louvencourt :: CV</title>
     <link rel="stylesheet" href="assets/css/flatize.css">
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
@@ -12,7 +12,7 @@
 <main>
     <section class="hero gradient-cyanToPurple">
         <div class="hero-body">
-            <div class="container">
+            <div class="container hero_revert">
                 <img src="assets/img/profil_picture.jpg" class="profil_picture is-rounded animated fadeInDown">
                 <h4 class="title text-white text-centered animated fadeInUp">
                     Clément de Louvencourt
@@ -28,11 +28,119 @@
 
 <div class="container">
     <div class="col-12">
-        <div id="grid">
+        <h1 class="text-black title size-2 text-centered">Développement</h1>
+        <h1 class="text-grey-500 subtitle size-6 text-centered">Mes compétences & projets en programmation.</h1>
+        <hr/>
+        <div id="codestats">
+            <div class="row mt-5">
+                <div class="col-lg-3">
+                    <h4 class="text-black title size-3"><i class="fas fa-code pb-1"></i><br>Languages maitrisés.</h4>
+                    <h6 class="subtitle text-grey-600 size-7 pt-1">Utilisant la suite Jetbrains pour développer, celle-ci me fournit un plugin permettant d'obtenir le nombre de ligne de code tapé en direct.</h6>
+                    <a class="button" href="">Voir le site</a>
+                </div>
+                <div class="col-lg-9 mt-5">
+                    <div class="row mb-4">
+                        <div class="col-lg-12">
+                            <div class="row" id="languages">
+                                <div class="spinner"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="mt-5">
+
+        <div id="projects">
             <div class="row mt-5">
                 <div class="col-lg-3">
                     <h4 class="text-black title size-3"><i class="fas fa-code pb-1"></i><br>Projets de<br> développement externes.</h4>
-                    <h6 class="subtitle text-grey-600 size-6 pt-1">Mes réalisations pour des sociétés ou des associations ont été réalisé à partir de maquettes pour le front-end ou à partir de cahiers des charges pour le back-end.</h6>
+                    <h6 class="subtitle text-grey-600 size-7 pt-1">Mes réalisations pour des sociétés ou des associations ont été réalisé à partir de maquettes pour le front-end ou à partir de cahiers des charges pour le back-end.</h6>
+                </div>
+                <div class="col-lg-9 mt-5">
+                    <div class="mt-2">
+                        <div class="media">
+                            <div class="media-left">
+                                <i class="fab fa-cloudsmith media_icon text-blue-500"></i>
+                            </div>
+                            <div class="media-content">
+                                <h5 class="title text-grey-800 size-4">Front-End</h5>
+                                <h6 class="subtitle text-grey-500 size-6">Mes réalisations front-end (HTML5, CSS, SCSS, SASS, Photoshop)</h6>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <i class="fas fa-cog media_icon text-blue-500"></i>
+                            </div>
+                            <div class="media-content">
+                                <h5 class="title text-grey-800 size-4">Back-End</h5>
+                                <h6 class="subtitle text-grey-500 size-6">Mes réalisations back-end (PHP, Java SE, Javascript, C#)</h6>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-lg-12 mt-3">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-content">
+                                                <figure class="image is-48x48">
+                                                    <img src="assets/img/logo_white.svg" class="mbp_image blue-500">
+                                                </figure>
+                                                <p class="title size-4 mt-1">MeilleursBiensPro</p>
+                                                <div class="subtitle size-6 pb-1">
+                                                    MeilleursBiensPro est un réseau d'agence immobilière, basé sur Paris, la réalisation de ce site avait pour objectif de simplifier les démarches administratives de l'entreprise à travers un panel d'administration avancé.
+                                                    <br>
+                                                    <a href="https://meilleursbiens.pro/" target="_blank" class="button mt-1">Voir la prestation</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <i class="fab fa-deviantart media_icon text-blue-500"></i>
+                            </div>
+                            <div class="media-content">
+                                <h5 class="title text-grey-800 size-4">Full-Stack</h5>
+                                <h6 class="subtitle text-grey-500 size-6">Mes réalisations full-stack (PHP, Java SE, Javascript, C#, HTML5, SCSS, SASS, Photoshop)</h6>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-lg-12 mt-2">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-content">
+                                                <figure class="image is-48x48">
+                                                    <img src="assets/img/logo_web.png" class="ph_image blue-500">
+                                                </figure>
+                                                <p class="title size-4 mt-1">PrivateHeberg</p>
+                                                <div class="subtitle size-6 pb-1">
+                                                    PrivateHeberg est une entreprise de services et d'hébergement réseaux, basé sur Nancy, la réalisation de ce site avait pour objectif de réaliser un site vitrine pour la vente ainsi qu'un panel de gestion de services dialoguant via packets RabbitMQ avec une application Java.
+                                                    <br>
+                                                    <a href="https://privateheberg.com/" target="_blank" class="button mt-1">Voir la prestation</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="mt-5">
+
+        <div id="personalProjects">
+            <div class="row mt-5">
+                <div class="col-lg-3">
+                    <h4 class="text-black title size-3"><i class="fas fa-code pb-1"></i><br>Projets de<br> développement personnels.</h4>
+                    <h6 class="subtitle text-grey-600 size-7 pt-1">Mes réalisations personnels destiné à être des projets propriétaires ou des projets open-sources.</h6>
                 </div>
                 <div class="col-lg-9 mt-5">
                     <div class="mt-2">
@@ -46,19 +154,15 @@
                                 <div class="card">
                                     <div class="card-content">
                                         <div class="media">
-                                            <div class="media-left">
-                                                <figure class="image is-48x48">
-                                                    <img src="assets/img/meilleurs_biens_pro.svg" class="mbp_image">
-                                                </figure>
-                                            </div>
                                             <div class="media-content">
-                                                <p class="title size-4">Meilleurs Biens Pro</p>
-                                                <div class="subtitle size-6">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                                                    <a href="#">#css</a> <a href="#">#responsive</a>
+                                                <figure class="image is-48x48">
+                                                    <img src="assets/img/logo_white.svg" class="mbp_image blue-500">
+                                                </figure>
+                                                <p class="title size-4 mt-1">MeilleursBiensPro</p>
+                                                <div class="subtitle size-6 pb-1">
+                                                    MeilleursBiensPro est un réseau d'agence immobilière, basé sur Paris, la réalisation de ce site avait pour objectif de simplifier les démarches administratives de l'entreprise à travers un panel d'administration avancé.
                                                     <br>
-                                                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                                    <a href="https://meilleursbiens.pro/" target="_blank" class="button mt-1">Voir la prestation</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -68,21 +172,35 @@
                         </div>
                         <h5 class="title text-grey-800 size-4"><i class="fab fa-deviantart"></i> Full-stack</h5>
                         <h6 class="subtitle text-grey-500 size-6">Mes réalisations full-stack</h6>
-                        <div class="row">
-                            <div class="col-xs">
-                                <div class="col-box grey-100 text-black"></div>
-                            </div>
-                            <div class="col-xs">
-                                <div class="col-box grey-100 text-black"></div>
+                        <div class="row mb-4">
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-content">
+                                                <figure class="image is-48x48">
+                                                    <img src="assets/img/logo_web.png" class="ph_image blue-500">
+                                                </figure>
+                                                <p class="title size-4 mt-1">PrivateHeberg</p>
+                                                <div class="subtitle size-6 pb-1">
+                                                    PrivateHeberg est une entreprise de services et d'hébergement réseaux, basé sur Nancy, la réalisation de ce site avait pour objectif de réaliser un site vitrine pour la vente ainsi qu'un panel de gestion de services dialoguant via packets RabbitMQ avec une application Java.
+                                                    <br>
+                                                    <a href="https://privateheberg.com/" target="_blank" class="button mt-1">Voir la prestation</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <hr class="mt-5">
     </div>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>
