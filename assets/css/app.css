@@ -22,6 +22,10 @@
     position: relative;
 }
 
+.card-info {
+    margin: 10px;
+}
+
 .card-header {
     -webkit-box-align: stretch;
     -ms-flex-align: stretch;
@@ -218,6 +222,16 @@
 
 .ph_image {
     height: 48px;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    top: -27px;
+    right: 36px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.19), 0 2px 6px rgba(0, 0, 0, 0.23);
+}
+
+.nocturne_image {
+    height: 64px;
     border-radius: 5px;
     padding: 10px;
     position: absolute;
